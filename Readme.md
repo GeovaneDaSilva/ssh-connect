@@ -25,7 +25,7 @@ Add IP machine remote in your router exemple: 192.168.1.xxx
 ##### Step 4 - Give access port in you machine remote.
 ``` sh 
 Exemple Port: 2225
-Command linux: sudo iptables -p tcp --dport 2225 -j ACCEPT
+Command linux: sudo iptables -A INPUT -p tcp --dport 2222 -j ACCEP
 
 ```
 ##### Step 5 - Restart ssh 
