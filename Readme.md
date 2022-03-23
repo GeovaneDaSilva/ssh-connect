@@ -12,7 +12,7 @@ cd /etc/ssh
 ##### Step 2 -  Open PORT in the file sshd_config.
 
 ``` sh
-nano sshd_config
+sudo nano sshd_config
 Port 22 to exemple 2225
 
 ```
