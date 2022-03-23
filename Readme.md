@@ -35,7 +35,7 @@ sudo /etc/init.d/ssh restart
 
 ##### Step 6 - Connect with your client other computer
 ```
-sudo ssh usernamecomputerRemote@192.168.1.xxx
+sudo ssh usernamecomputerRemote@192.168.1.xxx -p 2225
 Enter password machine remote
 
  
